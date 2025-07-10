@@ -24,7 +24,7 @@ const Home = () => {
         >
           <motion.div initial={{ x: 100 }} animate={{ x: 0 }} transition={{ duration: 1 }} className="text-center">
             <h2 className="text-[3rem] sm:text-[4rem] md:text-[5rem] font-bold text-[#fdf1c8] font-['League_Spartan']">
-              J and J<br />AGROVET
+              J AND J<br />AGROVET
             </h2>
             <p className="text-[1.25rem] sm:text-[1.5rem] md:text-[1.75rem] text-[#fdf1c8] font-light font-['League_Spartan']">
               Your Trust is our capital

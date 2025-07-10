@@ -1,5 +1,6 @@
 import React from "react";
 import fot_logo from '../Images/fot_logo.png';
+import fot_logo1 from '../Images/brand.png';
 import { motion } from "framer-motion";
 import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
@@ -10,15 +11,19 @@ const Footer = () => {
         
         {/* Logo Centered */}
         <div className="md:col-span-3 flex justify-center">
-          <img src={fot_logo} alt="Logo" className="w-24 h-24 rounded-full" />
-        </div>
+  <div className="w-32 h-26 bg-white rounded-full flex items-center justify-center">
+    <img src={fot_logo1} alt="Logo" className="w-25 h-20 rounded-full" />
+  </div>
+</div>
+
+
 
         {/* Quick Links */}
         <div>
           <h2 className="text-xl font-bold underline mb-2">Quick Links</h2>
           <ul className="space-y-2 text-lg">
             <li><a href="#" className="hover:text-yellow-400">Home</a></li>
-            <li><a href="#" className="hover:text-yellow-400">About</a></li>
+            <li><a href="#" className="hover:text-yellow-400">About Us</a></li>
             <li><a href="#" className="hover:text-yellow-400">Contact Us</a></li>
           </ul>
         </div>
@@ -27,8 +32,8 @@ const Footer = () => {
         <div>
           <h2 className="text-xl font-bold underline mb-2">Contact</h2>
           <ul className="space-y-2 text-lg">
-            <li>7777888999</li>
-            <li>demo@synctechindia.com</li>
+            <li>8601415108</li>
+            <li>jandjagrovet@gmail.com</li>
             <li>Pune, India</li>
           </ul>
         </div>

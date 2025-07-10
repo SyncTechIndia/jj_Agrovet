@@ -17,7 +17,7 @@ function Aboutus() {
           transition={{ duration: 1, ease: "easeOut" }}
           className="bg-green-800 text-white w-1/2 p-2 rounded-r-3xl font-bold"
         >
-          Journey Started in 2001
+          The Journey of J and J Agrovate
         </motion.h5>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center mt-6 w-full">
           {/* Text Section */}
@@ -31,11 +31,24 @@ function Aboutus() {
               About J and J Agrovet
             </h2>
             <p className="text-lg text-yellow-700 font-bold leading-relaxed">
-              Company was started in 2012 as the name of SONU POULTRY FARM.
-              Deals in Trading and Own Farming till 2015. Sonu Poultry introduced
-              in Integration from 2016 with forty thousand placements per month.
-              From 2021, J AND J Agrovet Private Limited started with one lakh
-              placements per month.
+              J and Agrovet Private Limited is a trusted name in the poultry industry with over a decade of experience, innovation, and sustainable growth. 
+              Our journey was initiated by Mr. Sohil Ahmad,
+               a passionate entrepreneur with a vision to modernize poultry farming in India.
+            </p>
+            <p className="text-lg text-yellow-700 font-bold leading-relaxed">
+              It all began in 2012, when he founded Sonu Poultry Farm, 
+              focusing on poultry trading and own farming. With consistent quality and ethical practices, 
+              the venture quickly earned a reputation for reliability and growth.
+            </p>
+            <p className="text-lg text-yellow-700 font-bold leading-relaxed">
+              In 2016, the company expanded into poultry integration, starting with 40,000 bird placements per month. 
+              This move marked a shift toward a more systematic and scalable farming model.
+            </p>
+            <p className="text-lg text-yellow-700 font-bold leading-relaxed">
+              Building on this momentum, Jand Agrovet Private Limited was established in 2021, 
+              with an increased placement capacity of 1,00,000 birds per month. Under 
+              Mr. Sohil Ahmad’s leadership, the company continues to focus on integrated farming, 
+              quality production, and strong partnerships with local farmers.
             </p>
           </motion.div>
           {/* Image Section */}

@@ -12,8 +12,8 @@ const Contactus = () => {
         <div className="w-full md:w-1/3">
           <h3 className="text-2xl font-semibold text-green-700 mb-4">Our Details</h3>
           <p className="text-gray-800"><strong>Name:</strong> XYZ</p>
-          <p className="text-gray-800"><strong>Email:</strong> xyz@email.com</p>
-          <p className="text-gray-800"><strong>Mobile:</strong> +91 9876543210</p>
+          <p className="text-gray-800"><strong>Email:</strong> Jandjagrovet.com</p>
+          <p className="text-gray-800"><strong>Mobile:</strong> +91 8601415108</p>
         </div>
 
         {/* Contact Form - Floating Labels & Underline Input */}

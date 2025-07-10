@@ -5,11 +5,11 @@ import Timeline from "./Timeline";
 const Aboutus = () => {
 
 const journeyData = [
-  { year: 2015, event: "Founded", details: "Our company was established with a vision to revolutionize agriculture." },
-  { year: 2017, event: "First Innovation Award", details: "Recognized for our groundbreaking eco-friendly farming solutions." },
-  { year: 2019, event: "Global Expansion", details: "Expanded operations to multiple countries, impacting global farming techniques." },
-  { year: 2021, event: "Sustainability Milestone", details: "Achieved 100% sustainable product line." },
-  { year: 2023, event: "Industry Leader", details: "Ranked as a top sustainable agriculture brand worldwide." }
+  // { year: 2015, event: "Founded", details: "Our company was established with a vision to revolutionize agriculture." },
+  // { year: 2017, event: "First Innovation Award", details: "Recognized for our groundbreaking eco-friendly farming solutions." },
+  // { year: 2019, event: "Global Expansion", details: "Expanded operations to multiple countries, impacting global farming techniques." },
+  // { year: 2021, event: "Sustainability Milestone", details: "Achieved 100% sustainable product line." },
+  // { year: 2023, event: "Industry Leader", details: "Ranked as a top sustainable agriculture brand worldwide." }
 ];
   const [visible, setVisible] = useState(false);
 
@@ -36,7 +36,7 @@ const journeyData = [
       </div>
 
       {/* Achievements Section */}
-      <h3 className="text-3xl font-bold text-green-700 mt-16 mb-6 text-center font-serif">
+      {/* <h3 className="text-3xl font-bold text-green-700 mt-16 mb-6 text-center font-serif">
         Our Achievements
       </h3>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl">
@@ -49,7 +49,7 @@ const journeyData = [
             <p className="text-gray-600 text-center font-sans">{item.details}</p>
           </div>
         ))}
-      </div>
+      </div> */}
 
       {/* Vision & Mission Section */}
       <h3 className="text-3xl font-bold text-green-700 mt-16 mb-6 text-center font-serif">

@@ -6,7 +6,8 @@ const Home = lazy(() => import('../Components/Home'));
 const ContactUs = lazy(() => import('../Components/Pages/Contactus'));
 const About = lazy(() => import('../Components/Pages/Aboutus'));
 const Product = lazy(() => import('../Components/Pages/Products'));
-const Gallery = lazy(() => import('../Components/Pages/Gallery'))
+const Gallery = lazy(() => import('../Components/Pages/Gallery'));
+const Career = lazy(() => import('../Components/Pages/Career'));
 
 const MyRoutes = [
   { path: '/', element: <Home /> }, // Default home page
@@ -14,6 +15,7 @@ const MyRoutes = [
   { path: '/about', element: <About /> },
   { path: '/product', element: <Product /> },
   { path: '/gallery', element: <Gallery /> },
+  { path: '/Career', element: <Career /> },
   { path: '*', element: <Navigate to="/" replace /> }, // Redirect unknown routes to Home
 ];
 
