@@ -10,13 +10,13 @@ const Gallery = lazy(() => import('../Components/Pages/Gallery'));
 const Career = lazy(() => import('../Components/Pages/Career'));
 
 const MyRoutes = [
-  { path: '/', element: <Home /> }, // Default home page
+  { path: '/', element: <Home /> }, 
   { path: '/contact-us', element: <ContactUs /> },
   { path: '/about', element: <About /> },
   { path: '/product', element: <Product /> },
   { path: '/gallery', element: <Gallery /> },
   { path: '/Career', element: <Career /> },
-  { path: '*', element: <Navigate to="/" replace /> }, // Redirect unknown routes to Home
+  { path: '*', element: <Navigate to="/" replace /> }, 
 ];
 
 export default MyRoutes;
