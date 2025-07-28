@@ -3,6 +3,15 @@ import fot_logo from '../Images/fot_logo.png';
 import fot_logo1 from '../Images/brand.png';
 import { motion } from "framer-motion";
 import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+const links = [
+  {name : 'Home', path: '/' },
+  {name : 'About Us', path: '/about'},
+  { name: 'Services', path: '/services' },
+];
+
 
 const Footer = () => {
   return (
@@ -18,15 +27,40 @@ const Footer = () => {
 
 
 
+{/* const links = [
+  { name: 'Home', path: '/' },
+  { name: 'About Us', path: '/about' },
+  { name: 'Services', path: '/services' },
+]; */}
+
         {/* Quick Links */}
-        <div>
+        {/* <div>
           <h2 className="text-xl font-bold underline mb-2">Quick Links</h2>
           <ul className="space-y-2 text-lg">
             <li><a href="#" className="hover:text-yellow-400">Home</a></li>
             <li><a href="#" className="hover:text-yellow-400">About Us</a></li>
             <li><a href="#" className="hover:text-yellow-400">Contact Us</a></li>
           </ul>
-        </div>
+        </div> */}
+
+{/* Quick Links */}
+          <div className="space-y-4">
+            <h4 className="text-lg font-semibold text-blue-300 border-b border-blue-800/50 pb-2">
+              Quick Links
+            </h4>
+            <ul className="space-y-2">
+              {links.map((link) => (
+                <li key={link.name}>
+                  <Link
+                    to={link.path}
+                    className="text-slate-300 hover:text-blue-300 transition-colors duration-200 hover:translate-x-1 inline-block"
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
 
         {/* Contact Info */}
         <div>
