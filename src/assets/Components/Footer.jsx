@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 const links = [
   {name : 'Home', path: '/' },
   {name : 'About Us', path: '/about'},
-  { name: 'Services', path: '/services' },
+  { name: 'product', path: '/services' },
 ];
 
 
