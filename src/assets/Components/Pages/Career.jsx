@@ -84,6 +84,64 @@ const positions = [
       "Chance to work with a professional and supportive team",
     ],
   },
+   {
+    title: "Weighment Supervisor",
+    responsibilities: [
+      "Daily visits to contract broiler farms in assigned area",
+      "Monitor bird health, mortality, feed consumption, and FCR",
+      "Ensure biosecurity protocols and farm management standards are followed",
+      "Maintain records of placement, vaccinations, medications, and bird weights",
+      "Coordinate chick delivery, feed supply, and medicine distribution",
+      "Report daily updates to the Branch Manager",
+      "Build relationships with farmers and guide them for better performance",
+    ],
+    requirements: [
+      "Minimum Qualification: 10+2 or Graduate (preferred: Animal Science/Poultry)",
+      "1–2 years of experience in poultry or farm supervision (Freshers can apply if willing to learn)",
+      "Ability to work in rural areas and manage multiple farms",
+      "Basic understanding of poultry farming and disease management",
+      "Good communication and record-keeping skills",
+      "Must own a two-wheeler (travel allowance will be provided)",
+    ],
+    offerTitle: "💰 Salary & Benefits:",
+    offers: [
+      "Competitive Salary + Performance Incentives",
+      "Mobile and Travel Allowance",
+      "Training in poultry management and field supervision",
+      "Growth opportunities within the organization",
+      "Chance to work with a professional and supportive team",
+    ],
+  },
+    {
+    title: "Sales Executive – Broiler Birds",
+    responsibilities: [
+     "Achieve sales targets for live broiler birds in the assigned area",
+ "Identify and develop new customers including traders, wholesalers, and retailers",
+ "Maintain strong relationships with existing buyers and ensure repeat business",
+ "Coordinate bird lifting schedules with farms, logistics, and processing teams",
+" Monitor daily market rates, demand trends, and competitor pricing",
+ "Ensure timely payment collection and follow up on outstanding dues",
+" Maintain accurate sales records, billing details, and customer data",
+" Share daily sales updates, market feedback, and price movements with the Branch Manager",
+"Resolve customer issues related to quality, weight, and delivery"
+    ],
+    requirements: [
+      "Minimum Qualification: 10+2 or Graduate (preferred: Animal Science/Poultry)",
+      "1–2 years of experience in poultry or farm supervision (Freshers can apply if willing to learn)",
+      "Ability to work in rural areas and manage multiple farms",
+      "Basic understanding of poultry farming and disease management",
+      "Good communication and record-keeping skills",
+      "Must own a two-wheeler (travel allowance will be provided)",
+    ],
+    offerTitle: "💰 Salary & Benefits:",
+    offers: [
+      "Competitive Salary + Performance Incentives",
+      "Mobile and Travel Allowance",
+      "Training in poultry management and field supervision",
+      "Growth opportunities within the organization",
+      "Chance to work with a professional and supportive team",
+    ],
+  },
 ];
 
 export default function CareerPage() {
@@ -113,7 +171,7 @@ export default function CareerPage() {
 
       {/* Job Cards Grid */}
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 mb-16 ">
           {positions.map((job, index) => (
             <div 
               key={index} 
@@ -127,7 +185,7 @@ export default function CareerPage() {
               </div>
 
               {/* Card Content */}
-              <div className="p-6 space-y-6">
+              <div className="p-6 space-y-6 h-150 overflow-scroll">
                 {/* Responsibilities */}
                 <div>
                   <h3 className="flex items-center text-lg font-bold text-green-800 mb-3">

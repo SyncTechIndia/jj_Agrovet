@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import breeder from "../../images2/poultry.jpg/"
 import hatchary from "../../images2/hatchary.jpg/"
-import feedmill from "../../images2/poultryfeedjpg.jpg/"
+import feedmill from "../../images2/feedmill.jpeg"
+import cbf from "../../images2/cbf.png"
 //import hatchary from "../../images2/hatchary.jpg/"
 
 const services = [
@@ -9,25 +10,50 @@ const services = [
     id: 1,
     title: "Breeder Farms",
     description: "Our breeder farms are designed to produce high-quality hatching eggs that contribute to the superior performance of our broilers.",
+      points: [
+      "Scientifically managed breeder operations",
+      "High genetic potential parent stock",
+      "Strict biosecurity measures",
+      "Regular veterinary health monitoring",
+    ],
     image:breeder,
   },
   {
     id: 2,
     title: "Hatchery",
     description: "The hatchery is a crucial part of our poultry operations, ensuring the production of high-quality chicks.",
+       points: [
+      "Scientifically managed breeder operations",
+      "High genetic potential parent stock",
+      "Strict biosecurity measures",
+      "Regular veterinary health monitoring",
+    ],
     image:hatchary,
   },
   {
     id: 3,
     title: "Feed Mill",
     description: "Quality feed is the backbone of poultry farming, and our feed mill ensures the production of nutritionally balanced feed for breeders, broilers, and layers. ",
+      points: [
+      "Scientifically managed breeder operations",
+      "High genetic potential parent stock",
+      "Strict biosecurity measures",
+      "Regular veterinary health monitoring",
+    ],
     image:feedmill,
   },
   {
     id: 4,
     title: "Contract Broiler Farming",
-    description: "Our broiler farming operations focus on raising healthy birds with high meat yield, ensuring efficiency and sustainability. ",
-    image:breeder,
+    description: "Our breeder operations follow modern scientific practices and are monitored by trained farm professionals and veterinarians to ensure",
+     points: [
+     	"Optimal flock health and biosecurity",
+	"High fertility and hatchability rates",
+"Consistent egg production",
+"	Environmentally controlled housing for stress-free bird management"
+
+    ],
+    image:cbf,
   },
 ];
 
@@ -71,6 +97,11 @@ function Products() {
               {selectedService.title}
             </h3>
             <p className="text-gray-700 mt-3 text-lg">{selectedService.description}</p>
+           <ul className="mt-4 list-disc list-inside text-gray-600 space-y-2">
+    {selectedService.points.map((point, index) => (
+      <li key={index}>{point}</li>
+    ))}
+  </ul>
           </div>
         </div>
       </div>

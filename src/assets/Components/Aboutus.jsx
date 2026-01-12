@@ -32,7 +32,7 @@ function Aboutus() {
             </h2>
             <p className="text-lg text-yellow-700 font-bold leading-relaxed">
               J and Agrovet Private Limited is a trusted name in the poultry industry with over a decade of experience, innovation, and sustainable growth. 
-              Our journey was initiated by Mr. Sohil Ahmad,
+              Our journey was initiated by Mr. Suhel Ahmad,
                a passionate entrepreneur with a vision to modernize poultry farming in India.
             </p>
             <p className="text-lg text-yellow-700 font-bold leading-relaxed">
@@ -47,7 +47,7 @@ function Aboutus() {
             <p className="text-lg text-yellow-700 font-bold leading-relaxed">
               Building on this momentum, Jand Agrovet Private Limited was established in 2021, 
               with an increased placement capacity of 1,00,000 birds per month. Under 
-              Mr. Sohil Ahmad’s leadership, the company continues to focus on integrated farming, 
+              Mr. Suhel Ahmad’s leadership, the company continues to focus on integrated farming, 
               quality production, and strong partnerships with local farmers.
             </p>
           </motion.div>

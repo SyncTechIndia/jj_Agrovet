@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import hen from "../images2/hen.jpg";
+import hen from "../images2/hen1.png";
 import ProductsAndServices from './ProductsAndServices'
 import Aboutus from "./Aboutus";
 import Footer from "./Footer"
@@ -20,7 +20,7 @@ const Home = () => {
           {/* Image Section - Top on mobile, right on desktop */}
           <div className="w-full md:w-1/2 flex justify-center items-center order-1 md:order-2 mb-6 md:mb-0">
             <motion.div
-              className="overflow-hidden shadow-lg rounded-full border-4 border-orange-400
+              className="overflow-hidden shadow-lg rounded-full
                         w-48 h-48 sm:w-56 sm:h-56 md:w-80 md:h-80 
                         flex items-center justify-center bg-white"
               initial={{ scale: 0.8 }}
@@ -50,7 +50,7 @@ const Home = () => {
               className="text-center"
             >
               <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#fdf1c8] font-['League_Spartan'] leading-tight mb-2">
-                J & J<br />Agrovate
+                J AND J AGROVET
               </h2>
               <p className="text-lg sm:text-xl md:text-2xl text-[#fdf1c8] font-light font-['League_Spartan'] mb-8 uppercase tracking-wide">
                 Your Trust is our Capital

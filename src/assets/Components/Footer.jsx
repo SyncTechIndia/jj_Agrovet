@@ -148,7 +148,7 @@ const Footer = () => {
           {/* <div className="bg-gradient-to-r from-yellow-200 to-yellow-300 text-green-900 py-4 px-8 rounded-full inline-block shadow-lg"> */}
             <p className="text-sm md:text-base font-semibold">
               Design and Developed by{" "}
-              <span className="font-bold">Synctech India Pvt. Ltd</span>
+              <span className="font-bold">Synctech India IT Solutions</span>
             </p>
           {/* </div> */}
           <p className="text-green-300 text-sm mt-4">

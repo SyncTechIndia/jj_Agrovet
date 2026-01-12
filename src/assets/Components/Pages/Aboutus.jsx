@@ -16,18 +16,26 @@ const teamMembers = [
     email: " jandjagrovet@gmail.com",
     image: teamImages['../../Images/coreTeam/suhel.jpeg']?.default || ''
   },
-  {
+   {
     id: 2,
+    name: "Mr.Kumail Ahmad",
+    position: "Director",
+    mobile: "+91 9839422423 ",
+    email: " kumalhmd@gmail.com",
+    image: teamImages['../../Images/coreTeam/director2.jpeg']?.default || ''
+  },
+  {
+    id: 3,
     name: "MD. Irfan ",
     position: "General Manager",
     mobile: "+91 7052638609 ",
     email: " mdirfanmaklipur@gmail.com",
     image: teamImages['../../Images/coreTeam/irfaan.jpeg']?.default || '',
-     bio: "Visionary leader with 15+ years in sustainable agriculture",
+    //  bio: "Visionary leader with 15+ years in sustainable agriculture",
     color: "from-violet-500 to-purple-600"
   },
   {
-    id: 2,
+    id: 4,
     name: "Mr. Kamaluddin Khan ",
     position: "Admin Manager",
     mobile: "+91 86014 15108",
@@ -35,24 +43,25 @@ const teamMembers = [
     image: teamImages['../../Images/coreTeam/kamaluddin.jpeg']?.default || ''
   },
   {
-    id: 3,
+    id: 5,
     name: "Mr. Shamseer Ahamad ",
     position: "HOD – Accounts",
     mobile: "+91 91293 41068",
     email: "shamseerahmad789@gmail.com",
-    image: teamImages['../../Images/coreTeam/sales_head.jpeg']?.default || ''
+    image: teamImages['../../Images/coreTeam/shamsheer.jpeg']?.default || ''
+
   },
   {
-    id: 4,
-    name: "Shamsheer",
-    position: "Position 4",
-    mobile: "+91 12345 67893",
-    email: "shamsheer@company.com",
-    image: teamImages['../../Images/coreTeam/shamsheer.jpeg']?.default || ''
+    id: 6,
+    name: "Mr.Mohammad Amjad",
+    position: "Sales Head Broiler",
+    mobile: "+91 9450531326",
+    email: "Amzad.khan994@gmail.com",
+    image: teamImages['../../Images/coreTeam/sales_head.jpeg']?.default || ''
   },
 
   {
-    id: 6,
+    id: 7,
     name: "Mohd. Taukeer Ahamad ",
     position: "HOD – Finance (Feed Mill)",
     mobile: "+91 85760 74749",
