@@ -37,7 +37,7 @@ const Footer = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="w-28 h-28 bg-white rounded-2xl shadow-xl flex items-center justify-center mb-4 transform hover:scale-105 transition-transform duration-300">
+            <div className="w-60 h-28 bg-white rounded-2xl shadow-xl flex items-center justify-center mb-4 transform hover:scale-105 transition-transform duration-300">
               <img src={fot_logo1} alt="Logo" className="w-24 h-20 object-contain" />
             </div>
             <p className="text-green-100 text-center md:text-left text-sm leading-relaxed max-w-xs">
