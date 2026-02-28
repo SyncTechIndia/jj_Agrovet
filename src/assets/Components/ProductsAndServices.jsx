@@ -1,17 +1,24 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 import { HomeIcon, BuildingOfficeIcon } from "@heroicons/react/24/solid";
 import { GiChicken } from "react-icons/gi"; 
 import { FaEgg } from "react-icons/fa"; 
 
 const services = [
-  { title: "Breeder Farms", icon: <HomeIcon className="w-12 h-12 text-green-700" /> },
-  { title: "Hatchery", icon: <FaEgg className="w-12 h-12 text-green-700" /> },
-  { title: "Feed Mill", icon: <BuildingOfficeIcon className="w-12 h-12 text-green-700" /> },
-  { title: "Contract Broiler Farming", icon: <GiChicken className="w-12 h-12 text-green-700" /> },
+  { id: 1, title: "Breeder Farms", icon: <HomeIcon className="w-12 h-12 text-green-700" /> },
+  { id: 2, title: "Hatchery", icon: <FaEgg className="w-12 h-12 text-green-700" /> },
+  { id: 3, title: "Feed Mill", icon: <BuildingOfficeIcon className="w-12 h-12 text-green-700" /> },
+  { id: 4, title: "Contract Broiler Farming", icon: <GiChicken className="w-12 h-12 text-green-700" /> },
 ];
 
 function ServicesSection() {
+  const navigate = useNavigate();
+
+  const handleServiceClick = (serviceId) => {
+    navigate('/product', { state: { serviceId } });
+  };
+
   return (
     <div className="py-10 px-4 bg-white">
       <h2 className="text-2xl font-semibold text-center mb-6">Our Services</h2>
@@ -19,6 +26,7 @@ function ServicesSection() {
         {services.map((service, index) => (
           <motion.div
             key={index}
+            onClick={() => handleServiceClick(service.id)}
             initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.2 }}

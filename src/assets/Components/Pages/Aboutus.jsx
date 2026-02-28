@@ -14,6 +14,7 @@ const teamMembers = [
     position: "Director",
     mobile: "+91 8874902905",
     email: " jandjagrovet@gmail.com",
+    thought: "Our vision is to deliver safe, healthy, and affordable poultry products. We believe poultry farming is not just about producing food—it's about nourishing communities, empowering farmers, and ensuring sustainability for future generations. We are committed to innovation at every stage, from modern hatchery practices to eco-friendly feed solutions, ensuring that each step of our journey adds real value to society. Together with our dedicated team, we strive to build a responsible, resilient, and future-ready poultry ecosystem.",
     image: teamImages['../../Images/coreTeam/suhel.jpeg']?.default || ''
   },
    {
@@ -22,6 +23,7 @@ const teamMembers = [
     position: "Director",
     mobile: "+91 9839422423 ",
     email: " kumalhmd@gmail.com",
+    thought: "Our journey in poultry farming is not only about sustaining what we have built, but also about innovating for the future. We embrace modern technologies, strengthen partnerships with farmers, and ensure that our products consistently meet the highest standards of nutrition and safety.",
     image: teamImages['../../Images/coreTeam/director2.jpeg']?.default || ''
   },
   {
@@ -30,6 +32,7 @@ const teamMembers = [
     position: "General Manager",
     mobile: "+91 7052638609 ",
     email: " mdirfanmaklipur@gmail.com",
+    thought: "Our strength lies in the dedication of our people and the precision of our operations. As General Manager, my priority is to ensure that every stage of our poultry production—from hatchery to market—runs smoothly, safely, and efficiently. We are committed to maintaining strict biosecurity, adopting modern farming practices, and continuously training our workforce to meet the highest industry standards. Our goal is not only to deliver healthy, high-quality poultry products, but also to build lasting trust with our customers and empower our farmers.",
     image: teamImages['../../Images/coreTeam/irfaan.jpeg']?.default || '',
     //  bio: "Visionary leader with 15+ years in sustainable agriculture",
     color: "from-violet-500 to-purple-600"
@@ -40,6 +43,7 @@ const teamMembers = [
     position: "Admin Manager",
     mobile: "+91 86014 15108",
     email: "kamaluddin7@gmail.com",
+    thought: "Ensuring smooth operations and fostering a culture of efficiency and teamwork.",
     image: teamImages['../../Images/coreTeam/kamaluddin.jpeg']?.default || ''
   },
   {
@@ -48,6 +52,7 @@ const teamMembers = [
     position: "HOD – Accounts",
     mobile: "+91 91293 41068",
     email: "shamseerahmad789@gmail.com",
+    thought: "Our mission is to ensure financial integrity and operational efficiency by effectively controlling costs, optimizing revenues, and embracing modern accounting practices. We are committed to transparency, regulatory compliance, and proactive risk management, while actively supporting innovation and sustainability across the organization. Through strategic financial leadership, we aim to strengthen profitability, enable sustainable growth, and deliver lasting value to our farmers, customers, and stakeholders.",
     image: teamImages['../../Images/coreTeam/shamsheer.jpeg']?.default || ''
 
   },
@@ -57,6 +62,7 @@ const teamMembers = [
     position: "Sales Head Broiler",
     mobile: "+91 9450531326",
     email: "Amzad.khan994@gmail.com",
+    thought: "Driving sales excellence while building lasting relationships with our valued customers.",
     image: teamImages['../../Images/coreTeam/sales_head.jpeg']?.default || ''
   },
 
@@ -66,6 +72,7 @@ const teamMembers = [
     position: "HOD – Finance (Feed Mill)",
     mobile: "+91 85760 74749",
     email: "mohdtaukeer01@gmail.com",
+    thought: "Optimizing financial strategies to ensure sustainable growth and operational excellence.",
     image: teamImages['../../Images/coreTeam/tukeer.jpeg']?.default || ''
   }
 ];
@@ -145,20 +152,20 @@ practices, thereby revolutionizing the poultry farming landscape.
       </div>
 
   {/* Our Team Section */}
-      <div className="bg-slate-50 py-20 px-4">
+      <div className="bg-gray-100 py-20 px-4">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-5xl font-bold text-center mb-4 text-slate-800">
+          <h2 className="text-5xl font-bold text-center mb-4 text-green-700">
             Meet Our Team
           </h2>
-          <p className="text-center text-slate-600 mb-16 max-w-2xl mx-auto text-lg">
+          <p className="text-center text-gray-600 mb-16 max-w-2xl mx-auto text-lg">
             The passionate innovators driving our mission to revolutionize sustainable agriculture
           </p>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
             {teamMembers.map((member, index) => (
               <div 
                 key={member.id} 
-                className="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500"
+                className="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 h-fit"
                 onMouseEnter={() => setHoveredMember(member.id)}
                 onMouseLeave={() => setHoveredMember(null)}
               >
@@ -175,33 +182,35 @@ practices, thereby revolutionizing the poultry farming landscape.
                   />
                   
                   {/* Bottom Border Effect on Hover */}
-                  <div className="absolute bottom-0 left-0 w-0 h-1 bg-gradient-to-r from-amber-700 via-amber-600 to-amber-500 group-hover:w-full transition-all duration-500"></div>
+                  <div className="absolute bottom-0 left-0 w-0 h-1 bg-gradient-to-r from-green-700 via-green-600 to-green-500 group-hover:w-full transition-all duration-500"></div>
                 </div>
 
                 {/* Info Section */}
                 <div className="p-6 relative">
-                  <h3 className="text-2xl font-bold text-slate-800 mb-2 transition-colors duration-300 group-hover:text-amber-700">
+                  <h3 className="text-2xl font-bold text-slate-800 mb-2 transition-colors duration-300 group-hover:text-green-700">
                     {member.name}
                   </h3>
-                  <p className="text-amber-700 font-semibold mb-3 text-sm uppercase tracking-wide">
+                  <p className="text-green-700 font-semibold mb-3 text-sm uppercase tracking-wide">
                     {member.position}
                   </p>
-                  <p className="text-slate-600 text-sm mb-4">
-                    {member.bio}
-                  </p>
+                  
+                  {/* Thought/Quote */}
+                  <div className="text-gray-600 text-sm italic leading-relaxed max-h-20 overflow-hidden group-hover:max-h-96 transition-all duration-500">
+                    "{member.thought}"
+                  </div>
                   
                   {/* Contact Details - Shows on Hover */}
                   <div className="space-y-2 opacity-0 max-h-0 overflow-hidden group-hover:opacity-100 group-hover:max-h-40 transition-all duration-500">
                     <div className="pt-4 border-t border-slate-200">
                       <div className="flex items-start gap-2 text-slate-700 mb-2">
-                        <span className="font-semibold text-amber-700 min-w-fit">Phone:</span>
-                        <a href={`tel:${member.mobile}`} className="hover:text-amber-700 transition-colors">
+                        <span className="font-semibold text-green-700 min-w-fit">Phone:</span>
+                        <a href={`tel:${member.mobile}`} className="hover:text-green-700 transition-colors">
                           {member.mobile}
                         </a>
                       </div>
                       <div className="flex items-start gap-2 text-slate-700">
-                        <span className="font-semibold text-amber-700 min-w-fit">Email:</span>
-                        <a href={`mailto:${member.email}`} className="hover:text-amber-700 transition-colors break-all">
+                        <span className="font-semibold text-green-700 min-w-fit">Email:</span>
+                        <a href={`mailto:${member.email}`} className="hover:text-green-700 transition-colors break-all">
                           {member.email}
                         </a>
                       </div>

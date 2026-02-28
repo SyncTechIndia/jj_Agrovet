@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 import breeder from "../../images2/poultry.jpg";
 import hatchary from "../../images2/hatchary.jpg";
@@ -222,12 +223,23 @@ const services = [
 /* ===================== COMPONENT ===================== */
 
 function Products() {
+  const location = useLocation();
   const [selectedService, setSelectedService] = useState(services[0]);
   const [openSection, setOpenSection] = useState(null);
 
+  useEffect(() => {
+    if (location.state?.serviceId) {
+      const service = services.find(s => s.id === location.state.serviceId);
+      if (service) {
+        setSelectedService(service);
+        setOpenSection(null);
+      }
+    }
+  }, [location.state]);
+
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-100">
-      <div className="max-w-6xl w-full bg-white shadow-lg rounded-lg p-8 mt-16">
+    <div className="flex justify-center items-center min-h-screen bg-gray-100 pt-20">
+      <div className="max-w-6xl w-full bg-white shadow-lg rounded-lg p-8 my-8">
 
         {/* Title */}
         <h2 className="text-4xl font-bold text-green-700 text-center mb-8">
