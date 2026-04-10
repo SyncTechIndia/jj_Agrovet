@@ -49,8 +49,8 @@ const Home = () => {
               transition={{ duration: 1, delay: 0.3 }} 
               className="text-center"
             >
-              <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#fdf1c8] font-['League_Spartan'] leading-tight mb-2">
-                J AND J AGROVET
+              <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-5xl font-bold text-[#fdf1c8] font-['League_Spartan'] leading-tight mb-2">
+                J AND J AGROVET PVT LTD
               </h2>
               <p className="text-lg sm:text-xl md:text-2xl text-[#fdf1c8] font-light font-['League_Spartan'] mb-8 uppercase tracking-wide">
                 Your Trust is our Capital
