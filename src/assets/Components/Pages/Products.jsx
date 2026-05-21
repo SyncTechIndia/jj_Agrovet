@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-import breeder from "../../images2/poultry.jpg";
-import hatchary from "../../images2/hatchary.jpg";
-import feedmill from "../../images2/feedmill.jpeg";
+import breeder from "../../images2/BMS.jpg";
+import hatchary from "../../images2/HMS.jpeg";
+import feedmill from "../../images2/FM.jpeg";
 import cbf from "../../images2/cbf.png";
 
 /* ===================== DATA ===================== */
