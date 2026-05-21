@@ -15,7 +15,7 @@ const teamMembers = [
     mobile: "+91 8874902905",
     email: " jandjagrovet@gmail.com",
     thought: "Our vision is to deliver safe, healthy, and affordable poultry products. We believe poultry farming is not just about producing food—it's about nourishing communities, empowering farmers, and ensuring sustainability for future generations. We are committed to innovation at every stage, from modern hatchery practices to eco-friendly feed solutions, ensuring that each step of our journey adds real value to society. Together with our dedicated team, we strive to build a responsible, resilient, and future-ready poultry ecosystem.",
-    image: teamImages['../../Images/coreTeam/suhel.jpeg']?.default || ''
+    image: teamImages['../../Images/coreTeam/suhel1.jpeg']?.default || ''
   },
    {
     id: 2,
