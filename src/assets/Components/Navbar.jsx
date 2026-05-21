@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-3">
-          <img src={brand} className="h-15" alt="Brand Logo" />
+          <img src={brand} className="h-20" alt="Brand Logo" />
         </Link>
 
         {/* Hamburger Button */}
@@ -81,3 +81,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+

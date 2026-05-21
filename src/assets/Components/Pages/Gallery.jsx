@@ -26,7 +26,7 @@ const processImages = () => {
     } else if (path.includes('/team/')) {
       category = 'team';
       const filename = path.split('/').pop().replace(/\.[^/.]+$/, '');
-      title = `Team ${filename}`;
+      title = `${filename}`;
     } else {
       const filename = path.split('/').pop().replace(/\.[^/.]+$/, '');
       title = `Gallery ${filename}`;
@@ -51,8 +51,8 @@ const Gallery = () => {
   // Filter categories
   const filters = [
     { id: "all", label: "All", icon: "🏢" },
-    { id: "breeder", label: "Hatchery", icon: "🥚" },
-    { id: "hatechery", label: "Breeder", icon: "🐔" },
+    { id: "breeder", label: "Breeder", icon: "🥚" },
+    { id: "hatechery", label: "Hatchery", icon: "🐔" },
     { id: "team", label: "Team", icon: "👥" },
     { id: "general", label: "General", icon: "📷" },
   ];
