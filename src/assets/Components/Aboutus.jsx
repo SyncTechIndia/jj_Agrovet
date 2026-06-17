@@ -28,10 +28,10 @@ function Aboutus() {
             className="px-6"
           >
             <h2 className="text-4xl font-bold text-green-800 text-left mb-4">
-              About J AND J AGROVET PVT LIMITED
+              About J AND J AGROVET PRIVATE LIMITED
             </h2>
             <p className="text-lg text-yellow-700 font-bold leading-relaxed">
-              J AND J AGROVET PVT LIMITED is a trusted name in the poultry industry with over a decade of experience, innovation, and sustainable growth. 
+              J AND J AGROVET PRIVATE LIMITED is a trusted name in the poultry industry with over a decade of experience, innovation, and sustainable growth. 
               Our journey was initiated by Mr. Suhel Ahmad,
                a passionate entrepreneur with a vision to modernize poultry farming in India.
             </p>

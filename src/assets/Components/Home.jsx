@@ -1,11 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 import hen from "../images2/hen1.png";
 import ProductsAndServices from './ProductsAndServices'
 import Aboutus from "./Aboutus";
 import Footer from "./Footer"
 
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <>
       <motion.div
@@ -56,6 +58,7 @@ const Home = () => {
                 Your Trust is our Capital
               </p>
               <motion.button 
+                onClick={() => navigate('/contact-us')}
                 className="px-8 py-3 font-bold text-white bg-[#b06216] rounded-full hover:bg-[#cc7a29] 
                           transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105
                           text-sm sm:text-base uppercase tracking-wider"

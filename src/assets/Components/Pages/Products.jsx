@@ -13,7 +13,7 @@ const services = [
   id: 1,
   title: "Breeder Farms",
   description:
-    "At J AND J AGROVET PVT LIMIITED, our breeder farms are at the core of our poultry integration system. These farms are carefully managed to produce high-quality, disease-free hatching eggs that directly influence the strength, health, and productivity of our broiler birds.",
+    "At J AND J AGROVET PRIVATE LIMITED, our breeder farms are at the core of our poultry integration system. These farms are carefully managed to produce high-quality, disease-free hatching eggs that directly influence the strength, health, and productivity of our broiler birds.",
 
   sections: [
     {
@@ -56,7 +56,7 @@ const services = [
   id: 2,
   title: "Hatchery",
   description:
-    "At J AND J AGROVET PVT LIMIITED, our hatchery management system is designed to ensure maximum hatchability, chick uniformity, and biosecurity. Our hatcheries play a vital role in converting high-quality hatching eggs into strong, disease-free day-old chicks.",
+    "At J AND J AGROVET PRIVATE LIMITED, our hatchery management system is designed to ensure maximum hatchability, chick uniformity, and biosecurity. Our hatcheries play a vital role in converting high-quality hatching eggs into strong, disease-free day-old chicks.",
 
   sections: [
     {
@@ -107,7 +107,7 @@ const services = [
   id: 3,
   title: "Feed Mill",
   description:
-    "At J AND J AGROVET PVT LIMIITED, we understand that feed is the foundation of poultry health and productivity. Our state-of-the-art feed mill produces nutritionally balanced, high-quality feed tailored to every stage of bird development.",
+    "At J AND J AGROVET PRIVATE LIMITED, we understand that feed is the foundation of poultry health and productivity. Our state-of-the-art feed mill produces nutritionally balanced, high-quality feed tailored to every stage of bird development.",
 
   sections: [
     {
