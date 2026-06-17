@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 
 import breeder from "../../images2/BMS.jpg";
 import hatchary from "../../images2/HMS.jpeg";
-import feedmill from "../../images2/FM.jpeg";
+import feedmill from "../../images2/FM2.jpeg";
 import cbf from "../../images2/cbf.png";
 
 /* ===================== DATA ===================== */
@@ -13,7 +13,7 @@ const services = [
   id: 1,
   title: "Breeder Farms",
   description:
-    "At Jand Agrovet Private Limited, our breeder farms are at the core of our poultry integration system. These farms are carefully managed to produce high-quality, disease-free hatching eggs that directly influence the strength, health, and productivity of our broiler birds.",
+    "At J AND J AGROVET PVT LIMIITED, our breeder farms are at the core of our poultry integration system. These farms are carefully managed to produce high-quality, disease-free hatching eggs that directly influence the strength, health, and productivity of our broiler birds.",
 
   sections: [
     {
@@ -56,7 +56,7 @@ const services = [
   id: 2,
   title: "Hatchery",
   description:
-    "At J and J Agrovet, our hatchery management system is designed to ensure maximum hatchability, chick uniformity, and biosecurity. Our hatcheries play a vital role in converting high-quality hatching eggs into strong, disease-free day-old chicks.",
+    "At J AND J AGROVET PVT LIMIITED, our hatchery management system is designed to ensure maximum hatchability, chick uniformity, and biosecurity. Our hatcheries play a vital role in converting high-quality hatching eggs into strong, disease-free day-old chicks.",
 
   sections: [
     {
@@ -107,7 +107,7 @@ const services = [
   id: 3,
   title: "Feed Mill",
   description:
-    "At J and J Agrovet, we understand that feed is the foundation of poultry health and productivity. Our state-of-the-art feed mill produces nutritionally balanced, high-quality feed tailored to every stage of bird development.",
+    "At J AND J AGROVET PVT LIMIITED, we understand that feed is the foundation of poultry health and productivity. Our state-of-the-art feed mill produces nutritionally balanced, high-quality feed tailored to every stage of bird development.",
 
   sections: [
     {
@@ -343,11 +343,11 @@ function Products() {
             )}
 
             {/* CTA */}
-            <div className="mt-8">
+            {/* <div className="mt-8">
               <button className="bg-green-700 text-white px-6 py-3 rounded-full hover:bg-green-800 transition">
                 Contact Us to Get Started
               </button>
-            </div>
+            </div> */}
 
           </div>
         </div>

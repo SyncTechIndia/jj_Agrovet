@@ -17,7 +17,7 @@ function Aboutus() {
           transition={{ duration: 1, ease: "easeOut" }}
           className="bg-green-800 text-white w-1/2 p-2 rounded-r-3xl font-bold"
         >
-          The Journey of J and J Agrovate
+          The Journey of J AND J AGROVET PVT LIMITED
         </motion.h5>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center mt-6 w-full">
           {/* Text Section */}
@@ -28,10 +28,10 @@ function Aboutus() {
             className="px-6"
           >
             <h2 className="text-4xl font-bold text-green-800 text-left mb-4">
-              About J and J Agrovet
+              About J AND J AGROVET PVT LIMITED
             </h2>
             <p className="text-lg text-yellow-700 font-bold leading-relaxed">
-              J and Agrovet Private Limited is a trusted name in the poultry industry with over a decade of experience, innovation, and sustainable growth. 
+              J AND J AGROVET PVT LIMITED is a trusted name in the poultry industry with over a decade of experience, innovation, and sustainable growth. 
               Our journey was initiated by Mr. Suhel Ahmad,
                a passionate entrepreneur with a vision to modernize poultry farming in India.
             </p>
@@ -45,7 +45,7 @@ function Aboutus() {
               This move marked a shift toward a more systematic and scalable farming model.
             </p>
             <p className="text-lg text-yellow-700 font-bold leading-relaxed">
-              Building on this momentum, Jand Agrovet Private Limited was established in 2021, 
+              Building on this momentum, J AND J AGROVET PVT LIMITED was established in 2021, 
               with an increased placement capacity of 1,00,000 birds per month. Under 
               Mr. Suhel Ahmad’s leadership, the company continues to focus on integrated farming, 
               quality production, and strong partnerships with local farmers.

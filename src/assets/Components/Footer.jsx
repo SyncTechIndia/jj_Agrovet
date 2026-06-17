@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const links = [
   { name: 'Home', path: '/' },
   { name: 'About Us', path: '/about' },
-  { name: 'Products', path: '/services' },
+  { name: 'Services', path: '/product' },
 ];
 
 const socialLinks = [
@@ -99,7 +99,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start group">
                 <FaMapMarkerAlt className="text-yellow-300 mt-1 mr-3 flex-shrink-0 group-hover:scale-110 transition-transform" />
-                <span className="text-green-100">Pune, India</span>
+                <span className="text-green-100">Jagadishpur ,Uttar Pradesh</span>
               </li>
             </ul>
           </motion.div>
