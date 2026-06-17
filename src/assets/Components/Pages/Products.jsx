@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 import breeder from "../../images2/BMS.jpg";
 import hatchary from "../../images2/HMS.jpeg";
@@ -224,6 +224,7 @@ const services = [
 
 function Products() {
   const location = useLocation();
+  const navigate = useNavigate();
   const [selectedService, setSelectedService] = useState(services[0]);
   const [openSection, setOpenSection] = useState(null);
 
@@ -343,11 +344,14 @@ function Products() {
             )}
 
             {/* CTA */}
-            {/* <div className="mt-8">
-              <button className="bg-green-700 text-white px-6 py-3 rounded-full hover:bg-green-800 transition">
+            <div className="mt-8">
+              <button
+                onClick={() => navigate('/contact-us')}
+                className="bg-green-700 text-white px-6 py-3 rounded-full hover:bg-green-800 transition"
+              >
                 Contact Us to Get Started
               </button>
-            </div> */}
+            </div>
 
           </div>
         </div>
