@@ -17,7 +17,7 @@ function Aboutus() {
           transition={{ duration: 1, ease: "easeOut" }}
           className="bg-green-800 text-white w-1/2 p-2 rounded-r-3xl font-bold"
         >
-          The Journey of J AND J AGROVET PVT LIMITED
+          The Journey of J AND J AGROVET PRIVATE LIMITED
         </motion.h5>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center mt-6 w-full">
           {/* Text Section */}
@@ -45,7 +45,7 @@ function Aboutus() {
               This move marked a shift toward a more systematic and scalable farming model.
             </p>
             <p className="text-lg text-yellow-700 font-bold leading-relaxed">
-              Building on this momentum, J AND J AGROVET PVT LIMITED was established in 2021, 
+              Building on this momentum, J AND J AGROVET PRIVATE LIMITED was established in 2021, 
               with an increased placement capacity of 1,00,000 birds per month. Under 
               Mr. Suhel Ahmad’s leadership, the company continues to focus on integrated farming, 
               quality production, and strong partnerships with local farmers.
